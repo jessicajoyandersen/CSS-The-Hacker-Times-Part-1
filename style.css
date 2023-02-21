@@ -1,1 +1,140 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Source Sans Pro";
+    background-color: #eee;
+}
+
+header {
+    font-family: sans-serif;
+}
+
+main {
+    border-bottom: #eee solid 2px;
+}
+
+h1 {
+    font-weight: bold;
+    font-family: "Abril Fatface";
+    text-align: center;
+    font-size: 60px;
+}
+h2 {
+    font-family: "Roboto Slab";
+}
+h4 {
+    font-weight: bold;
+    font-family: "Roboto Slab";
+}
+h5 {
+    color: #dd3232;
+    font-weight: bold;
+    font-family: 'Abril Fatface';
+    margin-top: 0;
+}
+
+p {
+    margin: 15px;
+    text-align: justify;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+
+nav {
+    border-top: #eee solid 2px;
+    border-bottom: #eee solid 2px;
+}
+ul {
+    margin: 0;
+    margin-right: 33px;
+    padding-top: 12px;
+    padding-bottom: 10px;;
+    text-align: center;
+}
+li {
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+    list-style-type: none;
+    font-size: 12px;
+}
+a{
+    color: #777; 
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a:hover, a:focus {
+    color: rgb(46, 46, 255);
+    background-color: rgb(203, 203, 203);
+}
+
+footer {
+    font-size: 10px;
+    display: flex;
+    justify-content: space-around;
+    border-top: #eee solid 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    line-height: 18px;
+}
+
+.newspaper-container {
+    width: 700px;
+    margin: auto;
+    
+    
+    background-color: white;
+    padding: 20px;
+    border-radius: 25px;
+    
+    box-shadow: 10px, 10px, 2px, 1px, #ddd;
+}
+
+.more-articles {
+    margin: auto;
+    padding: auto;
+    text-align: center;
+}
+.more-articles h4 {
+    text-align: left;
+}
+section {
+    display: inline-block;
+    width: 325px;
+    padding: 10px;
+}
+
+.even-more-articles {
+    margin: auto;
+    padding: auto;
+    text-align: center;
+}
+.even-more-articles h4 {
+    text-align: left;
+}
+.section-two {
+    display: inline-block;
+    width: 210px;
+}
+
+.article-three, 
+.article-four,
+.article-five {
+    height: 100px;
+    width: 210px;
+}
+
+.about-us li a,
+.contact li a {
+    font-size: 10px;
+}
+.footer-nav {
+    border: none; /* to cancel out border from header nav */
+    border-left: #eee solid 2px; /* to divide address and nav */
+}
