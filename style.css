@@ -145,6 +145,5 @@ footer {
     font-size: 10px;
 }
 .footer-nav {
-    border: none; /* to cancel out border from header nav */
     border-left: #eee solid 2px; /* to divide address and nav */
 }
