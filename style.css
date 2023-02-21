@@ -20,6 +20,7 @@ h1 {
     font-family: "Abril Fatface";
     text-align: center;
     font-size: 60px;
+    margin-bottom: 10px;
 }
 h2 {
     font-family: "Roboto Slab";
@@ -51,9 +52,12 @@ section {
     padding: 10px;
 }
 
-nav {
+nav.sticky {
     border-top: #eee solid 2px;
     border-bottom: #eee solid 2px;
+    position: sticky;
+    top: 0;
+    background: white;
 }
 ul {
     margin: 0;
