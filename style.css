@@ -45,6 +45,11 @@ img {
     width: 100%;
 }
 
+section {
+    display: inline-block;
+    width: 325px;
+    padding: 10px;
+}
 
 nav {
     border-top: #eee solid 2px;
@@ -109,11 +114,7 @@ footer {
 .more-articles h4 {
     text-align: left;
 }
-section {
-    display: inline-block;
-    width: 325px;
-    padding: 10px;
-}
+
 
 .even-more-articles {
     margin: auto;
