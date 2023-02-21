@@ -67,7 +67,7 @@ li {
 a{
     color: #777; 
     text-decoration: none;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Source Sans Pro";
 }
 a:hover, a:focus {
     color: rgb(46, 46, 255);
@@ -79,9 +79,14 @@ footer {
     display: flex;
     justify-content: space-around;
     border-top: #eee solid 2px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Source Sans Pro";
     padding: 10px;
     line-height: 18px;
+}
+
+.date {
+    font-family: "Source Sans Pro";
+    font-size: 12px;
 }
 
 .newspaper-container {
